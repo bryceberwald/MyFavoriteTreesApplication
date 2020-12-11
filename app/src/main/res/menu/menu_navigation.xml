@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.bberwald0.myfavoritetreesapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_personalFavorite"
+        android:icon="@drawable/ic_chevron_right_24"
+        android:orderInCategory="100"
+        android:title="@string/personalFavorite" />
+
+    <item
+        android:id="@+id/action_blueTree"
+        android:icon="@drawable/ic_chevron_right_24"
+        android:orderInCategory="100"
+        android:title="@string/blueTree" />
+
+    <item
+        android:id="@+id/action_tropicalTree"
+        android:icon="@drawable/ic_chevron_right_24"
+        android:orderInCategory="100"
+        android:title="@string/tropicalTree" />
+
+</menu>

@@ -13,4 +13,10 @@
     <string name="description">Description</string>
     <string name="location">Location</string>
     <string name="map">Map</string>
+
+    <string name="personalFavorite">Personal Favorite</string>
+    <string name="blueTree">Check Out a Blue Tree</string>
+    <string name="tropicalTree">A Tropical Tree</string>
+
+    <string name="recommendations">Recommendations...</string>
 </resources>
