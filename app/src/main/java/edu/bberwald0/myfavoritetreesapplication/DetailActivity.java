@@ -16,7 +16,6 @@ public class DetailActivity extends AppCompatActivity {
     public static final String EXTRA_POSITION = "position";
     private List<NamedLocation> locations = DataInitializer.getData();
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,5 +40,14 @@ public class DetailActivity extends AppCompatActivity {
 
         TextView location = findViewById(R.id.detail_location);
         location.setText(namedLocation.getLocation());
+
+        TextView inside = findViewById(R.id.detail_inside);
+        inside.setText(namedLocation.getInside());
+
+        TextView outside = findViewById(R.id.detail_outside);
+        outside.setText(namedLocation.getOutside());
+
+        TextView tallest = findViewById(R.id.detail_tallest);
+        tallest.setText(namedLocation.getTallest());
     }
 }

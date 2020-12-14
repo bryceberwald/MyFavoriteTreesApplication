@@ -2,14 +2,19 @@ package edu.bberwald0.myfavoritetreesapplication;
 
 public class NamedLocation {
 
-    private String name, description, location;
+    private String name, description, location, inside, outside, tallest;
     private int imageID;
 
-    public NamedLocation(String name, String description, String location, int imageID) {
+    public NamedLocation(String name, String description, String location, int imageID,
+                         String inside, String outside, String tallest) {
+
         this.description = description;
         this.imageID = imageID;
         this.location = location;
         this.name = name;
+        this.inside = inside;
+        this.outside = outside;
+        this.tallest = tallest;
     }
 
     public String getName() {
@@ -42,6 +47,30 @@ public class NamedLocation {
 
     public void setImageID(int imageID) {
         this.imageID = imageID;
+    }
+
+    public String getInside() {
+        return inside;
+    }
+
+    public void setInside(String inside) {
+        this.inside = inside;
+    }
+
+    public String getOutside() {
+        return outside;
+    }
+
+    public void setOutside(String outside) {
+        this.outside = outside;
+    }
+
+    public String getTallest() {
+        return tallest;
+    }
+
+    public void setTallest(String tallest) {
+        this.tallest = tallest;
     }
 
 }

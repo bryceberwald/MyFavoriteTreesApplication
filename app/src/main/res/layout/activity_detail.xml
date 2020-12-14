@@ -50,7 +50,6 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" >
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,6 +86,51 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="Pine Tree Location" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/inside"
+                android:textColor="?attr/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/detail_inside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="inside: Yes or no?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/outside"
+                android:textColor="?attr/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/detail_outside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="outside: Yes or no?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/tallest"
+                android:textColor="?attr/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/detail_tallest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="tallest height is..." />
 
         </LinearLayout>
 

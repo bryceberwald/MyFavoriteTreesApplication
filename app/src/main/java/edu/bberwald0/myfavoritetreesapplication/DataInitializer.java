@@ -13,43 +13,73 @@ public class DataInitializer {
     static {
         //Pine Tree
         data.add(new NamedLocation("Pine Tree",
-                "this is the pine tree description.",
-                "Pine Tree Location.",
-                R.drawable.pine_tree));
+                "Pine trees are evergreens that grow at varying sizes and typically live " +
+                        "a long time, sometimes reaching 100-1000 years of age.",
+                "North America, China, South-East Asia, Russia & Europe",
+                R.drawable.pine_tree,
+                "Yes",
+                "Yes",
+                "10-260 feet"));
         //Maple Tree
         data.add(new NamedLocation("Maple Tree",
-                "this is the maple tree description.",
-                "Maple Tree Location.",
-                R.drawable.maple_tree));
+                "Maple trees are in the Sapindaceae family & are seen being distributed to North Temperate" +
+                        " locations quite often but are more concentrated in China.",
+                "Mostly Asia but also seen in Europe, Northern Africa & North America",
+                R.drawable.maple_tree,
+                "Yes",
+                "Yes",
+                "30-130 feet"));
         //Apple Tree
         data.add(new NamedLocation("Apple Tree",
-                "this is the apple tree description.",
-                "Apple Tree Location.",
-                R.drawable.apple_tree));
+                "Apple trees produce more than 7,500 different kinds of" +
+                        " apples through all the apple trees grown throughout the world. The" +
+                        " approximate life span for an apple tree is 5-7 years.",
+                "Originated in Central Asia but now they are cultivated world wide.",
+                R.drawable.apple_tree,
+                "Yes",
+                "Yes",
+                "12-20 feet"));
         //Birch Tree
         data.add(new NamedLocation("Birch Tree",
-                "this is the birch tree description.",
-                "Birch Tree Location.",
-                R.drawable.birch_tree));
+                "Birch trees are part of the Betulaceae family of plants. They are usually medium-sized " +
+                        "and sometimes clumped with multiple trunks.",
+                "Northern part of North America",
+                R.drawable.birch_tree,
+                "Yes",
+                "Yes",
+                "40-70 feet"));
         //Blue Spruce Tree
         data.add(new NamedLocation("Blue Spruce Tree",
-                "this is the blue spruce tree description.",
-                "Blue Spruce Tree Location.",
-                R.drawable.blue_spruce_tree));
+                "Blue spruce trees are a species of the spruce tree that's native" +
+                        " to North America but has been introduced elsewhere.",
+                "Western United States",
+                R.drawable.blue_spruce_tree,
+                "Yes",
+                "Yes",
+                "50-75 feet"));
         //Oak Tree
         data.add(new NamedLocation("Oak Tree",
-                "this is the oak tree description.",
-                "Oak Tree Location.",
-                R.drawable.oak_tree));
+                "Oak trees are in the Fagaceae family and have 500 extant species of oaks.",
+                "Bay Area",
+                R.drawable.oak_tree,
+                "Yes",
+                "Yes",
+                "50-100 feet"));
         //Palm Tree
         data.add(new NamedLocation("Palm Tree",
-                "this is the palm tree description.",
-                "Palm Tree Location.",
-                R.drawable.palm_tree));
+                "Palm trees are evergreens which are tropical plants that are a part of the Palmae family.",
+                "Wet lands, lowland forests, South America, Caribbean",
+                R.drawable.palm_tree,
+                "Yes",
+                "Yes",
+                "4-20 feet"));
         //Willow Tree
         data.add(new NamedLocation("Willow Tree",
-                "this is the willow tree description.",
-                "Willow Tree Location.",
-                R.drawable.willow_tree));
+                "Willow trees are usually found in moist soils in cold temperate locations.",
+                "China, Europe, North America",
+                R.drawable.willow_tree,
+                "Yes",
+                "Yes",
+                "35-50 feet"));
     }
 }

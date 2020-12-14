@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">MyFavoriteTreesApplication</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
@@ -19,4 +20,9 @@
     <string name="tropicalTree">A Tropical Tree</string>
 
     <string name="recommendations">Recommendations...</string>
+
+    <string name="inside">Inside the USA:</string>
+    <string name="outside">Outside the USA:</string>
+    <string name="tallest">Tallest Known is:</string>
+
 </resources>
